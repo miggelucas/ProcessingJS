@@ -50,7 +50,7 @@ function Cell(i, j) {
     var y = this.j * w;
 
     noStroke();
-    fill(0, 0, 255, 100);
+    fill(0, 0, 255, 100); 
     rect(x, y, w, w);
   }
 
